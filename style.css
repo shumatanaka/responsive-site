@@ -1,0 +1,51 @@
+.profile{
+  background-image:url("../responsive-site/kadai7.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.text-center{
+  color:#3300CC;
+  text-align: center;
+  margin:10px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.skill-box{
+  border: solid 1px skyblue;
+  margin: 10px;
+  flex: 1;
+}
+.skill-box p{
+  text-align: left;
+  padding:5px;
+}
+  .sample {
+    width:200px;
+    font-size:24px;
+    border-radius:30px;
+    margin:auto;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 10px;
+    color:#333;
+    border:1px solid #333;
+}
+@media (max-width: 768px){
+.profile{
+  background-image:url("../responsive-site/kadai7.jpg");
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+  .container{
+    flex-direction: column;
+  }
+}
